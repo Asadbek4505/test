@@ -1,0 +1,543 @@
+   @font-face {
+       font-family: "Fredoka";
+       src: url("");
+   }
+
+
+   @font-face {
+       font-family: "Hind Madurai";
+       src: url("./fonts/Hind_Madurai/HindMadurai-Regular.ttf");
+   }
+
+   @font-face {
+       font-family: Roboto;
+       src: url("./fonts/Roboto/Roboto-Regular.ttf");
+   }
+
+   body {
+       margin: 0;
+
+   }
+
+   .block {
+       background: #F2CEDA;
+       width: 1900px;
+       height: 862px;
+   }
+
+   nav {
+       width: 90%;
+
+       display: flex;
+       justify-content: space-around;
+       margin: 0;
+       align-items: center;
+   }
+
+   nav .logo {
+
+       width: 79px;
+       height: 79px;
+   }
+
+   nav ul {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* text-decoration: none; */
+       flex-direction: row;
+       width: 40%;
+       gap: 40px;
+
+   }
+
+   nav ul li {
+       list-style: none;
+       text-decoration: none;
+       color: #150101;
+
+       font-family: Roboto;
+       font-size: 14px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+   }
+
+
+
+   nav button {
+       width: 165px;
+       height: 49px;
+       border-radius: 5px;
+       background: #D23166;
+       border: none;
+   }
+
+   .showcase {
+       margin-top: 285px;
+       margin-left: 254px;
+
+       width: 665px;
+       height: 364px;
+   }
+
+   .showcase h1 {
+       width: 665px;
+       height: 130px;
+       color: #0F0101;
+       font-family: Fredoka;
+       font-size: 57.33px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 120.5%;
+       /* 69.083px */
+   }
+
+   .showcase h1 span {
+       color: #D23166;
+       font-family: Hind Madurai;
+       font-size: 57.33px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 120.5%;
+   }
+
+   .showcase p {
+       width: 523px;
+       height: 78px;
+       color: #0F0101;
+       font-family: Hind Madurai;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 27px;
+       /* 150% */
+
+
+   }
+
+   .showcase button {
+       width: 165px;
+       height: 49px;
+       border-radius: 5px;
+       background: #D23166;
+       border: none;
+   }
+
+   .image {
+       display: flex;
+       float: right;
+       align-items: center;
+       justify-content: right;
+       width: 597px;
+       height: 597px;
+       margin-top: -500px;
+       margin-right: 150px;
+
+   }
+
+   .YANGI {
+       display: flex;
+       float: right;
+       align-items: center;
+       justify-content: right;
+       width: 597px;
+       height: 597px;
+       margin-top: -400px;
+       margin-right: -600px;
+
+   }
+
+   p {
+       margin: 0;
+   }
+
+   .cards {
+       display: grid;
+       grid-template-columns: repeat(4, 250px);
+       justify-content: center;
+       gap: 39px;
+       padding: 100px 0;
+       border-radius: 7px;
+       background: #FFF;
+   }
+
+   .cards .card {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       padding: 15px;
+       transition: all 0.35s;
+
+
+
+   }
+
+   .cards .card:hover {
+       box-shadow: 15px 15px 40px 0px rgba(0, 0, 0, 0.101);
+   }
+
+   .cards .card img {
+       height: 50px;
+
+   }
+
+   .cards .card p.title {
+       margin-top: 30px;
+       height: 28px;
+       color: #000;
+       font-family: Hind Madurai;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: normal;
+   }
+
+   .cards .card p.info {
+       margin-top: 9px;
+       height: 50px;
+       color: #000;
+       text-align: center;
+       font-family: Hind Madurai;
+       font-size: 14px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+   }
+
+   .showcase2 {
+       background: #F8EDF0;
+       width: 1900px;
+       height: 544.495px;
+       display: flex;
+       justify-content: center;
+   }
+
+
+   .showcase2 .left {
+       width: 442px;
+       height: 256.705px;
+       padding: 140px 100px;
+
+   }
+
+   .showcase2 .left p.h1 {
+       width: 349px;
+       height: 98.27px;
+       color: #150101;
+       font-family: Hind Madurai;
+       font-size: 44.2px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: 110.5%;
+       /* 48.841px */
+   }
+
+   .showcase2 .left p.parag {
+       width: 442px;
+       height: 58.16px;
+       color: #150101;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 24px;
+       /* 150% */
+       margin-top: 16px;
+   }
+
+   .showcase2 .left button {
+       margin-top: 35px;
+       width: 165px;
+       height: 49px;
+       border-radius: 5px;
+       background: #D23166;
+       border: none;
+   }
+
+   .showcase3 .top {
+       /* flex-direction: column; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .showcase3 .top p.H {
+       width: 238px;
+       height: 61px;
+       color: #150101;
+       font-family: Hind Madurai;
+       font-size: 44.2px;
+       font-style: normal;
+       font-weight: 600;
+       line-height: normal;
+       margin-top: 138px;
+   }
+
+   .showcase3 .top_info {
+       display: flex;
+       justify-content: center;
+       gap: 40px;
+       margin-top: 64px;
+   }
+
+   .showcase3 .top_info p.info span {
+       color: #000;
+       font-family: Roboto;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+       border-bottom: 2px solid #D64374;
+   }
+
+   .showcase3 .top_info p.info {
+       color: #2b2828;
+       font-family: Roboto;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+
+   }
+
+   .showcase3 .bolo {
+
+       display: flex;
+       justify-content: space-between;
+
+   }
+
+   .showcase3 .bolo .right1 {
+       width: 454px;
+       height: 234px;
+
+       margin-top: 109px;
+       margin-right: 320px;
+   }
+
+   .showcase3 .bolo .right1 p.bosh {
+       color: #000;
+       font-family: Hind Madurai;
+       font-size: 26px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: normal;
+   }
+
+   .showcase3 .bolo .right1 p.pas {
+       width: 454px;
+       height: 67px;
+       color: #000;
+       margin-top: 5px;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 24px;
+       /* 150% */
+   }
+
+   .showcase3 .bolo .right1 button {
+       margin-top: 10px;
+       width: 165px;
+       height: 49px;
+       border-radius: 5px;
+       background: #D64374;
+       border: none;
+
+   }
+
+   .showcase3 .bolo .right1 p.narx {
+       margin-top: 28px;
+   }
+
+   .showcase3 .bolo .right1 p.narx span {
+       width: 71px;
+       height: 27px;
+       color: #000;
+       font-family: Hind Madurai;
+       font-size: 26px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+   }
+
+   .showcase3 .bolo .right1 p.narx del {
+       width: 58px;
+       height: 27px;
+       color: #000;
+       font-family: Hind Madurai;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+       text-decoration-line: strikethrough;
+   }
+
+   .showcase3 .bolo .left1 {
+       margin-top: 50px;
+       margin-left: 330px;
+       margin-right: 85px;
+   }
+
+   .showcase3 .miyona {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .showcase3 .miyona .left2 {
+       width: 454px;
+       height: 234px;
+
+       margin-top: 121px;
+       margin-left: 301px;
+   }
+
+   .showcase3 .miyona .left2 p.bosh {
+       color: #000;
+       text-align: right;
+       font-family: Hind Madurai;
+       font-size: 26px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: normal;
+   }
+
+   .showcase3 .miyona .left2 p.pas {
+       width: 444px;
+       height: 67px;
+       color: #000;
+       text-align: right;
+       margin-top: 5px;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 24px;
+       /* 150% */
+   }
+
+   .showcase3 .miyona .left2 p.narx {
+       margin-top: 28px;
+   }
+
+   .showcase3 .miyona .left2 p.narx span {
+       width: 71px;
+       height: 27px;
+       color: #000;
+       text-align: right;
+
+       font-family: Hind Madurai;
+       font-size: 26px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+       margin-left: 300px;
+   }
+
+   .showcase3 .miyona .left2 p.narx del {
+       width: 58px;
+       height: 27px;
+       color: #000;
+       text-align: right;
+       font-family: Hind Madurai;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+       text-decoration-line: strikethrough;
+   }
+
+   .showcase3 .miyona .left2 button {
+       margin-top: 10px;
+       width: 165px;
+       height: 49px;
+       margin-top: 5px;
+       border-radius: 5px;
+       background: #D64374;
+       border: none;
+       margin-left: 280px;
+
+   }
+
+   .showcase3 .miyona .right2 {
+       margin-right: 187px;
+       margin-top: 30px;
+
+   }
+
+   .showcase3 .past .left3 {
+
+       width: 580px;
+       height: 415px;
+       padding: 35px 87px 0px 249px;
+   }
+
+   .showcase3 .past .right3 {
+
+       width: 454px;
+       height: 234px;
+       float: right;
+       margin-top: -326px;
+       margin-right: 226px;
+   }
+
+   .showcase3 .past .right3 p.bosh {
+       color: #000;
+       font-family: Hind Madurai;
+       font-size: 26px;
+       font-style: normal;
+       font-weight: 700;
+       line-height: normal;
+   }
+
+   .showcase3 .past .right3 p.pas {
+       width: 454px;
+       height: 67px;
+       color: #000;
+       font-family: Roboto;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 24px;
+       /* 150% */
+   }
+
+   .showcase3 .past .right3 p.narx {
+    
+   }
+
+   .showcase3 .past .right3 p.narx span {
+       width: 71px;
+       height: 27px;
+       color: #000;
+       font-family: Hind Madurai;
+       font-size: 26px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+   }
+
+   .showcase3 .past .right3 p.narx del {
+       width: 58px;
+       height: 27px;
+       color: #000;
+       font-family: Hind Madurai;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+       text-decoration-line: strikethrough;
+   }
+
+   .showcase3 .past button{
+    margin-top: 10px;
+    width: 165px;
+    height: 49px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: #ca265d;
+    border: none;
+   }

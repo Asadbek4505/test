@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Hind Madurai";
+    src: url("./fonts/Hind_Madurai/HindMadurai-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto/Roboto-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    background: #F2CEDA;
+}
+
+nav {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+}
+
+nav .logo {
+
+    width: 79px;
+    height: 79px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
+    flex-direction: row;
+    width: 40%;
+    gap: 40px;
+    color: #150101;
+
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+nav button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #D23166;
+}
+
+.showcase {
+    margin-top: 285px;
+    margin-left: 254px;
+
+    width: 665px;
+    height: 364px;
+}
+
+.showcase h1 {
+    width: 665px;
+    height: 130px;
+    color: #0F0101;
+    font-family: Hind Madurai;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%;
+    /* 69.083px */
+}
+
+.showcase h1 span {
+    color: #D23166;
+    font-family: Hind Madurai;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%;
+}
+
+.showcase p {
+    width: 523px;
+    height: 78px;
+    color: #0F0101;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+
+
+}
+
+.showcase button {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #D23166;
+}
+
+.image {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: right;
+    width: 597px;
+    height: 597px;
+    margin-top: -500px;
+    margin-right: 150px;
+   
+}
+
+.YANGI{
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: right;
+    width: 597px;
+    height: 597px;
+    margin-top: -400px;
+    margin-right: -600px;
+   
+}
+
